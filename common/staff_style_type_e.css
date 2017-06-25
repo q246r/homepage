@@ -187,7 +187,6 @@ img {
 	margin-bottom: 5px;
 	margin-left: 10px;
 	font-size: 90%;
-
 }
 
 #menu li li a{
@@ -197,7 +196,6 @@ img {
 	display: inline;
 	margin: 0px;
 	font-size: 90%;
-
 }
 
 #menu li li a:hover {
@@ -206,15 +204,14 @@ img {
 }
 
 #menu li li a:visited {
-	color:#454241;
+	color:#CCC;
 	background-image: none;
 }
 #menu li li a.navi_open{
-	color: #999;
+	color: #FFF;
 	background-image: none;
 	font-size: 90%;
 }
-
 
 #main{
 	width: 620px;
@@ -227,9 +224,6 @@ img {
 	margin-left: 20px;
 
 }
-
-
-
 
 #main dt{
 	width: 116px;
