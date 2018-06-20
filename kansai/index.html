@@ -8,35 +8,31 @@
 </head>
  
 <body>
-  
+
 <div id="contentWrapper">
-    
-    <div id="hedaer">
-        	
-		<h1>Nishimura's Homepage</h1>
-      
-    </div> 
-    <div id="aist_home2"><a href="http://www.aist.go.jp/"><img src="../image/aist_icon2_2.png" width="118" height="22" alt="産総研" /></a></div>    
-    
-  	<div id="contents">
-    
-    
-    <div id="cont_2">
-    
-    <div id="menu">  
-        <ul>
-        	<li><a href="../index.html">トップページ</a></li>
-          	<li><a href="../profile/index.html">プロフィール</a></li>
-            <li><a href="../research/index.html">研究紹介</a></li> 
-            <li><a href="../article/index.html">研究業績</a></li> 
-            <li><a href="../link/index.html">リンク</a></li>              
-        </ul>
-        
-	</div>
-    <!--menu_end-->
-    
-    
-	<div id="main">
+
+<div id="hedaer">
+	<h1>Nishimura's Homepage</h1>
+</div>
+
+<div id="aist_home2"><a href="http://www.aist.go.jp/"><img src="../image/aist_icon2_2.png" width="118" height="22" alt="産総研" /></a></div>
+
+<div id="contents">
+
+<div id="cont_2">
+
+<div id="menu">  
+	<ul>
+    <li><a href="../index.html">トップページ</a></li>
+    <li><a href="../profile/index.html">プロフィール</a></li>
+    <li><a href="../research/index.html">研究紹介</a></li> 
+    <li><a href="../article/index.html">研究業績</a></li> 
+    <li><a href="../link/index.html">リンク</a></li>              
+    </ul>
+</div>
+<!--menu_end-->
+
+<div id="main">
 
 <h1>産総研-関西大 共同研究の手引き</h1>
 
@@ -54,27 +50,26 @@
 
 <p>ファイル共有手順：</p>
 <ol>
-<li>Mirosoftアカウントを持っていなければ、「Mirosoftアカウント」でWeb検索する。</li>
+<li>Microsoftアカウントを持っていなければ、「Microsoftアカウント」でWeb検索する。</li>
 <li>指示に従って、Microsoftアカウントを作成する。</li>
 <li>作成したMicrosoftアカウントをメールで連絡し、ファイル共有の設定を依頼する。</li>
-<li>ファイル共有の設定完了メールを受け取ったら、OneDriveにログインする。</li>
-<li>dataフォルダが見えたらOK。以後、このフォルダを使ってファイルを共有する。</li>
-<li>ファイルのアップロードとダウンロードができるか確認する。</li>
+<li>ファイル共有の設定完了メールを受け取ったら、OneDriveにログインする。dataフォルダが見えたらOK。</li>
+<li>ファイルのアップロードとダウンロードができるかテストする。以後、このフォルダを使ってファイルを共有する。</li>
 </ol>
 
 <p>計算実行手順：</p>
 <div align="center">
-<img src="image/180619-AIST-Computer.png" width="350" height="280" alt="図">
+<img src="image/180619-AIST-Computer.png" width="370" height="280" alt="図">
 </div>
 
 <ol>
 <li>計算用ディレクトリを作成する。日付にアルファベット1文字をプラスしたディレクトリとする。例えば、180619a。</li>
 <li>計算を実行するのに必要なファイルを作成したディレクトリに入れる。</li>
-<li>ステップ数を短くしたテスト計算を関西大の計算機で実行する。例えば、10000ステップ、あるいは全ステップ数の1/100など。</li>
+<li>ステップ数を短くしたテスト計算を関西大の計算機で実行する。例えば、10000ステップあるいは全ステップ数の1/100など。</li>
 <li>計算が正常に終了したら、ステップ数を元に戻し、data.file等の不要なファイルを削除する。</li>
 <li>計算条件および産総研側での作業手順をmemoファイルに記述する。</li>
-<li>作成した計算用ディレクトリを圧縮する（<a href="#unix">UNIXコマンド一覧参照</a>）。例えば、180619a.tgz。</li>
-<li>作成したtgzファイル（計算ファイル）をOneDriveにアップロードする。</li>
+<li>作成した計算用ディレクトリを圧縮する<a href="#unix">（UNIXコマンド一覧参照）</a>。例えば、180619a.tgzを作成。</li>
+<li>計算ファイル（tgzファイル）をOneDriveにアップロードする。</li>
 <li>計算依頼メールを出す。</li>
 <li>産総研側で計算ファイルをダウンロード。memoファイルに従って計算実行後、結果ファイルをアップロード。</li>
 <li>計算終了メールを受け取ったら、OneDriveから結果ファイルをダウンロードする。180619b.tgzなど。</li>
@@ -96,7 +91,7 @@
 <li>...</li>
 </ol>
 
-<p>そのほか必要な文献は<a href="https://scholar.google.com/?oi=gsb&hl=ja/"target="_blank">Google Scholar</a>で検索してください。</p>
+<p>そのほか必要な文献は<a href="https://scholar.google.com/?oi=gsb&hl=ja/"target="_blank">Google Scholar</a>で検索してください。PDFファイルがダウンローできないときは齋藤先生に相談してください。</p>
 </section>
 
 <section id="unix">
@@ -114,29 +109,25 @@ $ tar ztvf 180213a.tgz
 </p>
 </ul>
 
-
 </section>
 
-    </div>
-    <!-- main_end -->
+</div>
+<!-- main_end -->
     
-    </div>
-    <!--cont_2_end-->
+</div>
+<!--cont_2_end-->
     
 <div class="clear-both"><hr /></div>
 </div>
 <!-- content_end -->
 
-
 <div id="footer">
 	Nishimura's Homepage e-mail: k.nishimura[at]aist.go.jp
 </div>
 
- 
 <div class="clear-both"><hr /></div>
 </div>
 <!-- contentWrapper_end -->
-
 
 </body>
 </html>
